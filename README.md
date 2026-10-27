@@ -1,3 +1,9 @@
+# 📸 TermiDeck Preview
+
+![TermiDeck Cyber Terminal Preview](screenshots/termideck-preview.jpg)
+
+---
+
 # ⚡ TermiDeck Cyber Terminal
 
 **A Colorful Neon Hacker-Style Terminal for Termux**

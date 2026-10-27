@@ -5,7 +5,7 @@ import shutil
 import subprocess
 from datetime import datetime
 
-NAME = "bikash_cyber_tech_"
+NAME = "bikash_cyber_tech_add"
 SITES = {
     "1": ("YouTube", "https://youtube.com"),
     "2": ("Instagram", "https://instagram.com/bikash_cyber_tech_/"),
@@ -14,13 +14,33 @@ SITES = {
 
 def banner():
     os.system("clear")
-    print("\033[96m")
-    print("╔══════════════════════════════════════╗")
-    print("║          T E R M I D E C K          ║")
-    print("║       CYBER TECH TERMINAL            ║")
-    print("╚══════════════════════════════════════╝")
-    print(f"       Author: {NAME}")
-    print("\033[0m")
+    cyan = "\033[96m"
+    green = "\033[92m"
+    magenta = "\033[95m"
+    reset = "\033[0m"
+
+    width = max(40, shutil.get_terminal_size((80, 24)).columns)
+    inner = width - 2
+    title = " BIKASH CYBER TECH "
+    remaining = max(0, inner - len(title))
+    left = remaining // 2
+    right = remaining - left
+
+    rows = [
+        ("╔" + "═" * left + title + "═" * right + "╗", cyan),
+        ("║" + " " * inner + "║", cyan),
+        ("║" + "BIKASH CYBER TECH".center(inner) + "║", cyan),
+        ("║" + " " * inner + "║", cyan),
+        ("╠" + "═" * inner + "╣", cyan),
+        ("║" + " " * inner + "║", cyan),
+        ("║" + "BIKASH CYBER TECH".center(inner) + "║", green),
+        ("║" + ("Author: " + NAME).center(inner) + "║", magenta),
+        ("║" + " " * inner + "║", cyan),
+        ("╚" + "═" * inner + "╝", cyan),
+    ]
+
+    for line, color in rows:
+        print(color + line + reset)
 
 def system_info():
     print("\n\033[92m--- SYSTEM INFORMATION ---\033[0m")
