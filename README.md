@@ -71,3 +71,14 @@ python termideck.py
 ```
 
 **Note:** Cloning the repository does not automatically install the `BIKASH-CYBER-TECH` launcher.
+
+## ⚡ One-Command Installer
+
+Run these commands in Termux:
+
+```bash
+pkg install git -y
+git clone https://github.com/pujamurmu49492-jpg/BH-Bikash-Ethical-GitHub_.git
+cd BH-Bikash-Ethical-GitHub_
+bash install.sh
+```
