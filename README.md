@@ -1,5 +1,6 @@
 # ⚡ TermiDeck Cyber Terminal
-000
+
+
 
 
 
@@ -7,13 +8,13 @@
 ![Platform](https://img.shields.io/badge/Platform-Termux-green?style=flat-square) ![Language](https://img.shields.io/badge/Language-Python-blue?style=flat-square) ![Project](https://img.shields.io/badge/Project-Terminal%20Customization-purple?style=flat-square)
 
 
-# 📸 TermiDeck Preview
+## 📸 TermiDeck Preview
 
 ![TermiDeck Cyber Terminal Preview](screenshots/termideck-preview.jpg)
 
 ---
 
-# ⚡ TermiDeck Cyber Terminal
+
 
 **A Colorful Neon Hacker-Style Terminal for Termux**
 
