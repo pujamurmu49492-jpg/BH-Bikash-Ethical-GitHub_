@@ -1,3 +1,9 @@
+# ⚡ TermiDeck Cyber Terminal
+
+**BIKASH CYBER TECH** — A Neon-Style Terminal for Termux
+![Platform](https://img.shields.io/badge/Platform-Termux-green?style=flat-square) ![Language](https://img.shields.io/badge/Language-Python-blue?style=flat-square) ![Project](https://img.shields.io/badge/Project-Terminal%20Customization-purple?style=flat-square)
+
+
 # 📸 TermiDeck Preview
 
 ![TermiDeck Cyber Terminal Preview](screenshots/termideck-preview.jpg)
