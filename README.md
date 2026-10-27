@@ -1,4 +1,7 @@
 # ⚡ TermiDeck Cyber Terminal
+000
+
+
 
 **BIKASH CYBER TECH** — A Neon-Style Terminal for Termux
 ![Platform](https://img.shields.io/badge/Platform-Termux-green?style=flat-square) ![Language](https://img.shields.io/badge/Language-Python-blue?style=flat-square) ![Project](https://img.shields.io/badge/Project-Terminal%20Customization-purple?style=flat-square)
@@ -37,9 +40,33 @@ TermiDeck is a lightweight terminal customization tool featuring a cyber-style b
 - Git
 - Termux:API (for URL shortcuts)
 
+
 ## 🚀 Installation
 
-### 1. Update Termux
+### 1. Update Termux and install packages
 
 ```bash
-pkg update -y && pkg upgrade -y
+pkg update -y
+pkg install python git -y
+```
+
+### 2. Clone the repository
+
+```bash
+git clone https://github.com/pujamurmu49492-jpg/BH-Bikash-Ethical-GitHub_.git
+cd BH-Bikash-Ethical-GitHub_
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run TermiDeck
+
+```bash
+python termideck.py
+```
+
+**Note:** Cloning the repository does not automatically install the `BIKASH-CYBER-TECH` launcher.
